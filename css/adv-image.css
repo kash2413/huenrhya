@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.adv-20x100 {
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.adv-25x100 {
+	width: 25%;
+	box-sizing: border-box;
+}
+
+.adv-33x100 {
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.adv-34x100 {
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.adv-50x100 {
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.adv-66x100 {
+	width: 66%;
+	box-sizing: border-box;
+}
+
+.adv-75x100 {
+	width: 75%;
+	box-sizing: border-box;
+}
+
+.adv-100x100 {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.adv-padding2x100 {
+	padding:2%; 
+}
+
+.adv-padding4x100 {
+	padding:4%; 
+}
+
+.adv-background-color-gray {
+	background-color: #E3E4E5;
+}
+
+.adv-external-config-div {
+	float: let;
+	width:100%;
+	padding:2%;
+}

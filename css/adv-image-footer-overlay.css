@@ -1,0 +1,113 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.sbo {
+	background: rgba(0, 0, 0, 0.50) none repeat scroll 0 0;
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+	z-index: 9999995;
+	left:0;
+	padding: 0 2% 4%;
+}
+
+.sbo_padding_top {
+	padding-top: 2% !important;
+	padding-bottom: 0% !important;
+}
+
+.sbo-content-continueBtn {
+	margin:0 2%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 5%;
+}
+
+.sbo-hide {
+	display:none;
+}
+
+.sbo-show {
+	display:block;
+}
+
+.sbo-content {
+	color: #fff;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.sbo-content a {
+	color:#fff
+}
+
+.sbo-content-title {
+	color:#fff;
+	margin: 1% auto;
+	width: 90%;
+	text-align:center;
+	font-weight:bold;
+}
+
+.sbo-content-image {
+	color: #fff;
+	float: left;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 100%;
+	border-box: border-box;
+}
+
+.sbo-content-image img {
+	width: 100%;
+	height:auto;
+	display: block;
+	cursor: pointer;
+}
+
+.sbo-content img {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	display: block;
+}
+
+.nobg .sbo{background:none}
+.nopadding .sbo{
+  padding: 0;
+}
+
+.sbo-vertical-sx{
+	left:0;
+	top:0;
+	width:14% !important;
+	height:100%;
+	padding: 2% 2% 2% 0 !important;
+}
+
+.sbo-vertical-dx{
+	left:86% !important;
+	top:0;
+	width:14% !important;
+	height:100%;
+	padding: 2% 0 2% 2% !important;
+}
+
+@media only screen and (max-width: 1359px){
+	.sbo-vertical-sx{
+		display: none;
+	}
+	.sbo-vertical-dx{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1360px){
+	.sbo-footer{
+		display: none;
+	}
+}

@@ -1,0 +1,125 @@
+.cao{
+  background: none repeat scroll 0 0 rgba(240, 240, 240, 1);
+  overflow: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999;
+	/* si deve adattare al contenuto
+  height: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+	*/
+}
+.cao-hide{
+	display:none;
+}
+.cao-show{
+	display:block;
+}
+.cao-content{
+  margin: 0 auto;
+  /*padding: 2%;*/
+  padding: 0 5%;
+  /*text-align: center;*/
+  width: 100%;
+  max-width: 768px;
+}
+.cao-content-txt{
+}
+.cao-content-btn{
+	  width: 100%;
+}
+
+.cao-content a {
+
+}
+.cao-content-acceptanceRichText{
+  margin: 1% auto;
+  width: 100%;
+}
+.cao-content-acceptButton{
+	/*margin:1%;
+	float:left;*/
+  float: left ;
+  text-align: center ;
+  width: 50% ;
+  margin:0 ;
+}
+.cao-content-moreButton{
+	/*margin:1%;
+	float:left;*/
+	
+	float: left ;
+	text-align: center ;
+	width: 50% ;
+	margin:0 ;	
+}
+
+.cao-content img{
+/*	min-width:50px;
+	max-height:50px;
+	width:70%;
+	height:auto;
+	margin:0 auto;*/
+
+	margin: 5% 0;
+  	max-height: 40px;
+  	vertical-align: middle ;
+  	width: auto;	
+}
+
+
+.cao-content-acceptButton-close{
+	height: 24px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: auto;
+}
+
+
+
+.cao-content-acceptButton-text {
+
+    float: left !important;
+    margin: 0 !important;
+    font-family: TIMSans,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.7rem;
+    pointer-events: none;
+    letter-spacing: .05rem;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    z-index: 2;
+    padding: 0.5rem 0 0.4rem;
+}
+
+@media (min-width: 48em) {
+	
+	.cao-content-acceptButton-close{
+		width: 30%;
+	}
+
+
+}
+
+
+cao-image-acceptButton{
+	
+}
+cao-image-moreButton{
+	
+}
+
+cao-span-acceptButton{
+	
+}
+cao-span-moreButton{
+	
+}

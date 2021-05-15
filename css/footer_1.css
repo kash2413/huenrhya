@@ -1,0 +1,53 @@
+/* Enter here your responsive custom style classes */
+
+.ftr-div1 {
+	float: left;
+	width: 100%;
+	background-color:#091d3e;
+}
+
+.ftr-table1 {
+	width: 100%;
+	font-size: 80%;
+}
+
+.ftr-table1-td1 {
+	width: 50%;
+	padding:2%;
+	text-align:left;
+}
+
+.ftr-table1-td1-ul li{
+	padding: 2% 0 2% 0;
+}
+
+.ftr-table1-td1-ul li a{
+	color:#FFFFFF;
+	text-decoration:none;	
+}
+
+.ftr-table1-td1-ul{
+	padding:0;
+	margin:0;
+}
+
+.ftr-table1-td1-li1{
+	list-style-type: none;
+}
+
+
+.ftr-table1-td1-li2{
+	list-style-type: none;
+}
+
+.ftr-table1-td2 {
+	vertical-align:top;
+	text-align:right; 
+	padding:2%;
+}
+
+.ftr-table1-td2-img {
+	max-width:100px; 
+	width:50%;
+	padding-top:2%;
+}

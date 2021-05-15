@@ -1,0 +1,27 @@
+.smtg-container {
+	width: 100%;
+	background-color:#ffffff;
+	border:1px solid #004691;
+}
+.smtg-container a {
+	text-decoration:none 
+}
+
+.smtg-menu{
+}
+.smtg-menu-item{
+	margin: 10px 20px;
+	color:#004691;
+	font-size:80%;
+	line-height:16px;
+	text-transform:uppercase;
+}
+.smtg-menu-item-selected{
+	/*text-decoration:underline;*/	
+}
+
+.smtg-menu-item-selected span{
+	border-bottom:1px solid #004691;
+	color:#000;
+	padding-bottom:1px;
+}

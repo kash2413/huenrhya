@@ -1,0 +1,111 @@
+.cs-container {
+	width: 100%;
+	background-color:#ffffff;
+}
+.cs-container a {
+	text-decoration:none 
+}
+
+.cs-menu{
+	line-height:35px;
+	width: 80%;
+	margin: auto;
+	max-width: 450px;
+}
+.cs-menu-item{
+	/*margin: 20px;*/
+	color:#005eb8;
+	font-size:100%;
+	text-transform:capitalize;
+	float:left;
+	font-family: 'TIMSansWeb-Bold';
+}
+.cs-menu-item-selected{
+	/*text-decoration:underline;*/	
+}
+
+.cs-menu-item-selected span{
+	border-bottom:1px solid #005eb8;
+	color:#000;
+	padding-bottom:8px;
+}
+
+.cs-container{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 5px;
+	/*background-color:#f0f0f0;*/
+	padding:2%;
+	float:left;
+}
+
+
+.cs-close{
+	text-align: right;
+}
+
+.cs-close-image{
+	margin-top: 10px;
+	width: 20px;
+	cursor: pointer;
+}
+
+.cs-label{
+	font-size: 110%;
+	margin: 0 0 10px 0;
+	padding: 0 25%;
+}
+
+.cs-select-container{
+	color: #005fb6;
+	float:right;
+
+	overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+	background-repeat:no-repeat;
+	background-position: 95% center;
+	background-size:15px;
+}
+.cs-select {
+  background-color:transparent;
+	-moz-appearance:none;
+  -webkit-appearance:none;
+  appearance:none;
+    
+  /*background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  border: 2px solid #005eb8;
+  border-radius: 20px;
+  color: #005eb8;
+  cursor: pointer;
+  height: 35px;
+  padding: 0 20px 0 10px;
+  width: 130px;
+  display:inline-block;
+  font-size:70%;
+  font-weight:bold;
+  vertical-align:middle;
+}
+/* se non volesse l'immagine
+.cs-select{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #005fb6;
+	-webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	cursor: pointer;
+}
+*/
+
+.close{
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+
+.cs-container.close{
+	display: none;
+}

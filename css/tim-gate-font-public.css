@@ -1,0 +1,133 @@
+@font-face{src:url("../fonts/RobotoSlab-Bold.ttf") format("truetype"); font-family:robotoslab-bold;}
+@font-face{src:url("../fonts/RobotoSlab-Light_1.ttf") format("truetype"); font-family:robotoslab-light;}
+@font-face{src:url("../fonts/RobotoSlab-Regular.ttf") format("truetype"); font-family:robotoslab-regular;}
+@font-face{src:url("../fonts/RobotoSlab-Thin_1.ttf") format("truetype"); font-family:robotoslab-thin;}
+@font-face{src:url("../TIMSans-Bold.otf") format("opentype"); font-family:timsans-bold;}
+@font-face{src:url("../TIMSans-BoldItalic.otf") format("opentype"); font-family:timsans-bolditalic;}
+@font-face{src:url("../TIMSans-Heavy.otf") format("opentype"); font-family:timsans-heavy;}
+@font-face{src:url("../TIMSans-HeavyItalic.otf") format("opentype"); font-family:timsans-heavyitalic;}
+@font-face{src:url("../TIMSans-Italic.otf") format("opentype"); font-family:timsans-italic;}
+@font-face{src:url("../TIMSans-Light.otf") format("opentype"); font-family:timsans-light;}
+@font-face{src:url("../TIMSans-LightItalic.otf") format("opentype"); font-family:timsans-lightitalic;}
+@font-face{src:url("../TIMSans-Medium.otf") format("opentype"); font-family:timsans-medium;}
+@font-face{src:url("../TIMSans-MediumItalic.otf") format("opentype"); font-family:timsans-mediumitalic;}
+@font-face{src:url("../TIMSans-Regular.otf") format("opentype"); font-family:timsans-regular;}
+@font-face{src:url("../TIMSans-Thin.otf") format("opentype"); font-family:timsans-thin;}
+@font-face{src:url("../TIMSans-ThinItalic.otf") format("opentype"); font-family:timsans-thinitalic;}
+
+@import url('css.css');
+
+
+@font-face { font-family: 'RobotoSlab-Bold';
+    src: url('../fonts/RobotoSlab-Bold.eot') format('embedded-opentype');
+    src: url('../fonts/RobotoSlab-Bold.svg') format('svg'),
+         url('../fonts/RobotoSlab-Bold_1.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+         url('../fonts/RobotoSlab-Bold.woff2') format('woff2');
+}
+@font-face { font-family: 'RobotoSlab-Light';
+    src: url('../fonts/RobotoSlab-Light.eot') format('embedded-opentype');
+    src: url('../fonts/RobotoSlab-Light.svg') format('svg'),
+         url('../fonts/RobotoSlab-Light.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Light.woff') format('woff'),
+         url('../fonts/RobotoSlab-Light.woff2') format('woff2');
+}
+@font-face { font-family: 'RobotoSlab-Regular';
+    src: url('../fonts/RobotoSlab-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/RobotoSlab-Regular.svg') format('svg'),
+         url('../fonts/RobotoSlab-Regular_1.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Regular.woff') format('woff'),
+         url('../fonts/RobotoSlab-Regular.woff2') format('woff2');
+}
+@font-face { font-family: 'RobotoSlab-Thin';
+    src: url('../fonts/RobotoSlab-Thin.eot') format('embedded-opentype');
+    src: url('../fonts/RobotoSlab-Thin.svg') format('svg'),
+         url('../fonts/RobotoSlab-Thin.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Thin.woff') format('woff'),
+         url('../fonts/RobotoSlab-Thin.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Bold';
+    src: url('../fonts/TIMSansWeb-Bold.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Bold.svg') format('svg'),
+         url('../fonts/TIMSans-Bold.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Bold.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Bold.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-BoldItalic';
+    src: url('../fonts/TIMSansWeb-BoldItalic.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-BoldItalic.svg') format('svg'),
+         url('../fonts/TIMSans-BoldItalic.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-BoldItalic.woff') format('woff'),
+         url('../fonts/TIMSansWeb-BoldItalic.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Heavy';
+    src: url('../fonts/TIMSansWeb-Heavy.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Heavy.svg') format('svg'),
+         url('../fonts/TIMSans-Heavy.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Heavy.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Heavy.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-HeavyItalic';
+    src: url('../fonts/TIMSansWeb-HeavyItalic.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-HeavyItalic.svg') format('svg'),
+         url('../fonts/TIMSans-HeavyItalic.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-HeavyItalic.woff') format('woff'),
+         url('../fonts/TIMSansWeb-HeavyItalic.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Italic';
+    src: url('../fonts/TIMSansWeb-Italic.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Italic.svg') format('svg'),
+         url('../fonts/TIMSans-Italic.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Italic.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Italic.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Light';
+    src: url('../fonts/TIMSansWeb-Light.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Light.svg') format('svg'),
+         url('../fonts/TIMSans-Light.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Light.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Light.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-LightItalic';
+    src: url('../fonts/TIMSansWeb-LightItalic.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-LightItalic.svg') format('svg'),
+         url('../fonts/TIMSans-LightItalic.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-LightItalic.woff') format('woff'),
+         url('../fonts/TIMSansWeb-LightItalic.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Medium';
+    src: url('../fonts/TIMSansWeb-Medium.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Medium.svg') format('svg'),
+         url('../fonts/TIMSans-Medium.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Medium.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Medium.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-MediumItalic';
+    src: url('../fonts/TIMSansWeb-MediumItalic.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-MediumItalic.svg') format('svg'),
+         url('../fonts/TIMSans-MediumItalic.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-MediumItalic.woff') format('woff'),
+         url('../fonts/TIMSansWeb-MediumItalic.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Regular';
+    src: url('../fonts/TIMSansWeb-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Regular.svg') format('svg'),
+         url('../fonts/TIMSans-Regular.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Regular.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Regular.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-Thin';
+    src: url('../fonts/TIMSansWeb-Thin.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-Thin.svg') format('svg'),
+         url('../fonts/TIMSans-Thin.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-Thin.woff') format('woff'),
+         url('../fonts/TIMSansWeb-Thin.woff2') format('woff2');
+}
+@font-face { font-family: 'TIMSansWeb-ThinItalic';
+    src: url('../fonts/TIMSansWeb-ThinItalic.eot') format('embedded-opentype');
+    src: url('../fonts/TIMSansWeb-ThinItalic.svg') format('svg'),
+         url('../fonts/TIMSans-ThinItalic.ttf') format('truetype'),
+         url('../fonts/TIMSansWeb-ThinItalic.woff') format('woff'),
+         url('../fonts/TIMSansWeb-ThinItalic.woff2') format('woff2');
+}
+

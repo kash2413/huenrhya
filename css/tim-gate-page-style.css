@@ -1,0 +1,925 @@
+body {
+ 	max-width: 768px;
+}
+
+html, body {
+	font-family: 'TIMSansWeb-Regular', sans-serif, arial;
+	box-sizing:border-box;
+	border:0;
+	margin:0 auto;
+	padding:0;
+	/*font-size:2.8vh;*/
+}
+
+#page,header{
+	max-width:inherit;
+}
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+a, a div, a div span{text-decoration:none;outline: none;}
+ 
+img {
+	width:100%;
+	max-width:100%;
+	height:auto;
+}
+#pixel{
+	width:0px;
+	max-width:0px;
+	height:0px;
+}
+
+video {width:100%}
+
+@media only screen and (max-width: 320px){}
+@media only screen and (min-width: 321px) and (max-width: 480px){}
+@media only screen and (min-width: 481px) and (max-width: 768px){}
+@media only screen and (min-width: 769px) and (max-width: 1024px){}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){}
+@media only screen and (min-width: 1201px){}
+
+
+html, body {	font-size:20px; }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 320px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 320px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 320px)
+{		/*Lumia 520*/
+		html, body{font-size:19px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 320px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 320px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 320px)
+{		/*iPhone4/5/SE*/
+		html, body{font-size:20px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 320px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 320px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 320px)
+{
+		html, body{font-size:16px;}
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 360px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 360px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 360px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 360px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 360px)
+{
+		/*LG Optimus L70*/
+		html, body{font-size:23px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 360px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 360px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 360px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 360px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 360px)
+{		/*iPhone 6/7/8, Galaxy Note2, Galaxy SIII, Nexus 4*/
+		html, body{font-size:22px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 360px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 360px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 360px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 360px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 360px)
+{
+		/* honor7x,iPhoneX,Galaxy Note3, Lumia950, Nexus 5,Galaxy S5 */
+		html, body{font-size:22px;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 400px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 400px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 400px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 400px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 400px)
+{		/*Nokia N9*/
+		html, body{font-size:28px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 400px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 400px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 400px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 400px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 400px)
+{
+		/*Pixel 2/2XL, Nexus 5x*/
+		html, body{font-size:24px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 400px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 400px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 400px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 400px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 400px)
+{		/*iPhone 6/6s/7/8 plus, Nexus 6/6p */
+		html, body{font-size:25px;}
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 500px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 500px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 500px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 500px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 500px)
+{		/*BlackBerry PlayBook*/
+		html, body{font-size:18px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 500px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 500px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 500px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 500px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 500px)
+{		/*LUMIA 550, Nexus7*/
+		html, body{font-size:19px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 500px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 500px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 500px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 500px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 500px)
+{
+		html, body{font-size:16px;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 768px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 768px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 768px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 768px)
+{
+		html, body{font-size:20px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 768px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 768px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 768px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 768px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 768px)
+{		/*iPad , Nexus 10, Ipad Mini*/
+		html, body{font-size:23px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 768px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 768px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 768px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 768px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 768px)
+{
+		html, body{font-size:20px;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 1024px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 1024px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 1024px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 1024px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 1024px)
+{   /*LAPTOP MDPI*/
+		html, body{font-size:29px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 1024px)
+{		/*LAPTOP HiDPI*/
+		html, body{font-size:29px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 1024px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 1024px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 1024px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 1024px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 1024px)
+{
+		html, body{font-size:20px;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 1920px),
+only screen and (   min--moz-device-pixel-ratio: 1) and (min-device-width: 1920px),
+only screen and (    -ms-min-device-pixel-ratio: 1) and (min-device-width: 1920px),
+only screen and (     -o-min-device-pixel-ratio: 1) and (min-device-width: 1920px),
+only screen and (        min-device-pixel-ratio: 1) and (min-device-width: 1920px)
+{		/*schermo25pollici*/
+		html, body{font-size:25px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1920px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 1920px),
+only screen and (    -ms-min-device-pixel-ratio: 2) and (min-device-width: 1920px),
+only screen and (     -o-min-device-pixel-ratio: 2) and (min-device-width: 1920px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 1920px)
+{
+		html, body{font-size:20px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3) and (min-device-width: 1920px),
+only screen and (   min--moz-device-pixel-ratio: 3) and (min-device-width: 1920px),
+only screen and (    -ms-min-device-pixel-ratio: 3) and (min-device-width: 1920px),
+only screen and (     -o-min-device-pixel-ratio: 3) and (min-device-width: 1920px),
+only screen and (        min-device-pixel-ratio: 3) and (min-device-width: 1920px)
+{
+		html, body{font-size:20px;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 449px){
+	.acc-preview-image-container .shortHero .acc-title {
+		line-height: 1.2 !important;
+	}
+	.acc-preview-image-container .acc-caption-container .hero .acc-title {
+		line-height: 1.2 !important;
+	}
+	.acc-preview-news .acc-caption-container .acc-title {
+		line-height: 1.2 !important;
+		height: 40px !important;
+	}
+	.acc-preview-news .acc-caption-container {
+		height: 70px !important;
+	}
+
+	.ccm-preview-image-container .shortHero .ccm-title {
+		line-height: 1.2 !important;
+	}
+	.ccm-preview-image-container .ccm-caption-container .hero .ccm-title {
+		line-height: 1.2 !important;
+	}
+	.ccm-preview-news .ccm-caption-container .ccm-title {
+		line-height: 1.2 !important;
+		height: 40px !important;
+	}
+	.ccm-preview-news .ccm-caption-container {
+		height: 70px !important;
+	}	
+	
+	.adv-20x100, .adv-25x100, .adv-33x100, .adv-34x100, .adv-50x100, .adv-66x100, .adv-75x100, .adv-100x100{text-align:center;}
+}
+
+/* breakpoint SMARTPHONE */
+/* Nessuna media query  */
+
+
+@media only screen and (max-width: 600px) {
+	.no-mobile{display:none}
+}
+
+/* breakpoint TABLET : 600px in su */
+@media (min-width: 600px) {
+	body {max-width:100% !important}
+	.tablet-20{
+		float:left !important;
+		width: 20% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.tablet-25{
+		float:left !important;
+		width: 25% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.tablet-30{
+		float:left !important;
+		width: 30% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.tablet-33{
+		float:left !important;
+		width: 33.33% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+	.tablet-33 .acc-caption-container.shortHero,.tablet-33 .acc-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+	.tablet-33 .ccm-caption-container.shortHero,.tablet-33 .ccm-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+
+	.tablet-40{
+ 		float: left !important;
+  	width: 40% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+	.tablet-40 .acc-caption-container.shortHero,.tablet-40 .acc-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+	.tablet-40 .ccm-caption-container.shortHero,.tablet-40 .ccm-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+
+	.tablet-50{
+ 		float: left !important;
+		width: 50% !important;
+		margin: 0 !important;
+		padding: 0 !important;  	
+	}
+
+	.tablet-60{
+ 		float: left !important;
+  	width: 60% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+
+	.tablet-66{
+ 		float: left !important;
+  	width: 66.66% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+
+	.tablet-70{
+ 		float: left !important;
+  	width: 70% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+
+	.tablet-100{
+ 		float: left !important;
+  	width: 100% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+
+	.adv-padding2x100{padding:2% !important;float:left;text-align:center;width:100%;}
+	.adv-padding3x100{padding:3% !important;float:left;text-align:center;width:100%;}
+	.adv-padding4x100{padding:4% !important;float:left;text-align:center;width:100%;}
+
+	.adv-padding2x100:empty{padding:0 !important;}
+	.adv-padding3x100:empty{padding:0 !important;}
+	.adv-padding4x100:empty{padding:0 !important;}
+
+	.adv-20x100, .adv-25x100, .adv-33x100, .adv-34x100, .adv-50x100, .adv-66x100, .adv-75x100, .adv-100x100{text-align:center;width:100%;}
+
+
+
+/* SLIDER */		
+		/*DEFAULT*/
+	.ccs-gallery-top-contanier{width:60% !important;}
+	.ccs-gallery-thumbs-contanier{width:40% !important;}
+	.ccs-title-wrapper span{font-size: 80% !important;}
+	.ccs-thumb-tag{font-size: 50% !important;}
+	.ccs-thumb-date{font-size: 50% !important;}
+	.ccs-thumb-title{font-size: 60% !important;}
+	.ccs-gallery-top-contanier .swiper-pagination-fraction{display:none !important;}
+
+
+	.tablet-100 .ccs-gallery-top-contanier{width:60% !important;}
+	.tablet-100 .ccs-gallery-thumbs-contanier{width:40% !important;}
+	.tablet-100 .ccs-title-wrapper span{font-size: 80% !important;}
+	.tablet-100 .ccs-thumb-tag{font-size: 50% !important;}
+	.tablet-100 .ccs-thumb-date{font-size: 50% !important;}
+	.tablet-100 .ccs-thumb-title{font-size: 60% !important;}
+	.tablet-100  .ccs-gallery-top-contanier .swiper-pagination-fraction{display:none !important;}
+
+	.tablet-70 .ccs-gallery-top-contanier{width:60% !important;}
+	.tablet-70 .ccs-gallery-thumbs-contanier{width:40% !important;}
+	.tablet-70 .ccs-title-wrapper span{font-size: 70% !important;}
+	.tablet-70 .ccs-thumb-tag{font-size: 45% !important;}
+	.tablet-70 .ccs-thumb-date{font-size: 45% !important;}
+	.tablet-70 .ccs-thumb-title{font-size: 55% !important;}
+	.tablet-70  .ccs-gallery-top-contanier .swiper-pagination-fraction{display:none !important;}
+
+	.tablet-66 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-66 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-66 .ccs-title-wrapper span{font-size: 75% !important;}
+	.tablet-66 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 50% !important; display:block !important;}
+
+	.tablet-60 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-60 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-60 .ccs-title-wrapper span{font-size: 75% !important;}
+	.tablet-60 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 50% !important; display:block !important;}
+
+	.tablet-50 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-50 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-50 .ccs-title-wrapper span{font-size: 70% !important;}
+	.tablet-50 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 50% !important; display:block !important;}
+
+	.tablet-40 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-40 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-40 .ccs-title-wrapper span{font-size: 60% !important;}
+	.tablet-40 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 45% !important; display:block !important;}
+
+	.tablet-33 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-33 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-33 .ccs-title-wrapper span{font-size: 50% !important;}
+	.tablet-33 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 40% !important; display:block !important;}
+
+	.tablet-30 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-30 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-30 .ccs-title-wrapper span{font-size: 40% !important;}
+	.tablet-30 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 30% !important; display:block !important;}
+
+	.tablet-25 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-25 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-25 .ccs-title-wrapper span{font-size: 40% !important;}
+	.tablet-25 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 30% !important; display:block !important;}
+
+	.tablet-20 .ccs-gallery-top-contanier{width:100% !important;}
+	.tablet-20 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.tablet-20 .ccs-title-wrapper span{font-size: 40% !important;}
+	.tablet-20 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 30% !important; display:block !important;}
+
+
+}
+ 
+/* breakpoint DESKTOP : 980px in su */
+@media (min-width: 980px) {
+	body {max-width:980px !important}
+	.desktop-20{
+		float:left !important;
+		width: 20% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+	.desktop-25{
+		float:left !important;
+		width: 25% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+	.desktop-30{
+		float:left !important;
+		width: 30% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.desktop-33{
+		float:left !important;
+		width: 33.33% !important;
+  	margin: 0 !important;
+		padding: 0 !important;
+	}
+	.desktop-33 .acc-caption-container.shortHero,.desktop-33 .acc-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+	.desktop-33 .ccm-caption-container.shortHero,.desktop-33 .ccm-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+
+	.desktop-40{
+ 		float: left !important;
+  	width: 40% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+	.desktop-40 .acc-caption-container.shortHero,.desktop-40  .acc-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+	.desktop-40 .ccm-caption-container.shortHero,.desktop-40  .ccm-image-container.shortHero{
+		/*width:100% !important;;*/
+	}
+
+	.desktop-50{
+ 		float: left !important;
+		width: 50% !important;
+		margin: 0 !important;
+		padding: 0 !important;  	
+	}
+
+	.desktop-60{
+ 		float: left !important;
+  	width: 60% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+	.desktop-66{
+ 		float: left !important;
+  	width: 66.66% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+	.desktop-70{
+ 		float: left !important;
+  	width: 70% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+	.desktop-100{
+ 		float: left !important;
+  	width: 100% !important;
+  	margin: 0 !important;
+		padding: 0 !important;  	
+	}
+	.adv-padding2x100{padding:2% !important;float:left;text-align:center;width:100%;}
+	.adv-padding3x100{padding:3% !important;float:left;text-align:center;width:100%;}
+	.adv-padding4x100{padding:4% !important;float:left;text-align:center;width:100%;}
+
+	.adv-padding2x100:empty{padding:0 !important;}
+	.adv-padding3x100:empty{padding:0 !important;}
+	.adv-padding4x100:empty{padding:0 !important;}
+
+	.adv-20x100, .adv-25x100, .adv-33x100, .adv-34x100, .adv-50x100, .adv-66x100, .adv-75x100, .adv-100x100{text-align:center;width:100%;}	
+
+
+
+
+/* DESKTOP-20 */
+		/*AREA - TITOLO*/
+	.desktop-20 .a-span-title{font-size:18px !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-20 .acc-caption{font-size:40% !important;}
+	.desktop-20 .acc-preview-image-container.shortHero .acc-title,.desktop-20 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:64% !important;}
+	.desktop-20 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-20 .acc-description.hero{font-size:50% !important;}
+	.desktop-20 .ccm-caption{font-size:40% !important;}
+	.desktop-20 .ccm-preview-image-container.shortHero .ccm-title,.desktop-20 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:64% !important;}
+	.desktop-20 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-20 .ccm-description.hero{font-size:50% !important;}
+
+		/*SELEZIONE CATEGORIA*/
+	.desktop-20 .cs-menu-item{font-size:18px !important;}
+	.desktop-20 .cs-select{font-size:40% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+	/*
+	.desktop-20 .wgserieacl-cnt table td img{max-height: 15px !important;height: 15px !important;}
+	.desktop-20 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:70% !important;}
+	.desktop-20 .wgserieacl-cnt table th{font-size:50% !important;}
+	.desktop-20 .wgserieacl-cnt table td{font-size:56% !important;}
+	.desktop-20 .wgserieacl-open-txt{font-size:50% !important;}
+	*/
+		/*WIDGET OROSCOPO*/
+	.desktop-20 .widg-oroscopo-item-for-category-txt{font-size:53% !important;}
+	.desktop-20 .widg-oroscopo-item-for-category-signdate{font-size:50% !important;}
+	.desktop-20 .widg-oroscopo-title{font-size:110% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-20 .cdi-caption,.desktop-20 .cdp-caption, .desktop-20 .cdv-caption,.desktop-20 .cdi-date, .desktop-20 .cdv-date, .desktop-20 .cdp-date{font-size:40% !important;}
+	.desktop-20 .cdi-title,.desktop-20 .cdp-title,.desktop-20 .cdv-title{font-size:64% !important;}
+	.desktop-20 .cdi-text, .desktop-20 .cdp-text, .desktop-20 .cdv-text{}
+	.desktop-20 .cdi-subtitle, .desktop-20 .cdp-subtitle, .desktop-20 .cdv-subtitle{font-size:50% !important;}
+
+/* DESKTOP-25 */	
+		/*AREA - TITOLO*/
+	.desktop-25 .a-span-title{font-size:19px !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-25 .acc-caption{font-size:40% !important;}
+	.desktop-25 .acc-preview-image-container.shortHero .acc-title,.desktop-25 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:65% !important;}
+	.desktop-25 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-25 .acc-description.hero{font-size:53% !important;}
+	.desktop-25 .ccm-caption{font-size:40% !important;}
+	.desktop-25 .ccm-preview-image-container.shortHero .ccm-title,.desktop-25 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:65% !important;}
+	.desktop-25 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-25 .ccm-description.hero{font-size:53% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-25 .cs-menu-item{font-size:19px !important;}
+	.desktop-25 .cs-select{font-size:40% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-25 .wgserieacl-cnt table td img{max-height: 20px !important;height: 20px !important;}
+	.desktop-25 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:72% !important;}
+	.desktop-25 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-25 .wgserieacl-cnt table td{font-size:67% !important;}
+	.desktop-25 .wgserieacl-open-txt{font-size:65% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-25 .widg-oroscopo-item-for-category-txt{font-size:55% !important;}
+	.desktop-25 .widg-oroscopo-item-for-category-signdate{font-size:50% !important;}
+	.desktop-25 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-25 .cdi-caption,.desktop-25 .cdp-caption, .desktop-25 .cdv-caption,.desktop-25 .cdi-date, .desktop-25 .cdv-date, .desktop-25 .cdp-date{font-size:40% !important;}
+	.desktop-25 .cdi-title, .desktop-25 .cdp-title, .desktop-25 .cdv-title{font-size:65% !important;}
+	.desktop-25 .cdi-text, .desktop-25 .cdp-text, .desktop-25 .cdv-text{}
+	.desktop-25 .cdi-subtitle, .desktop-25 .cdp-subtitle, .desktop-25 .cdv-subtitle{font-size:53% !important;}	
+
+
+/* DESKTOP-30 */
+		/*AREA - TITOLO*/
+	.desktop-30 .a-span-title{font-size:21px !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-30 .acc-caption{font-size:45% !important;}
+	.desktop-30 .acc-preview-image-container.shortHero .acc-title,.desktop-30 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:69% !important;}
+	.desktop-30 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-30 .acc-description.hero{font-size:56% !important;}
+	.desktop-30 .ccm-caption{font-size:45% !important;}
+	.desktop-30 .ccm-preview-image-container.shortHero .ccm-title,.desktop-30 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:69% !important;}
+	.desktop-30 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-30 .ccm-description.hero{font-size:56% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-30 .cs-menu-item{font-size:21px !important;}
+	.desktop-30 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-30 .wgserieacl-cnt table td img{max-height: 25px !important;height: 25px !important;}
+	.desktop-30 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:72% !important;}
+	.desktop-30 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-30 .wgserieacl-cnt table td{font-size:75% !important;}
+	.desktop-30 .wgserieacl-open-txt{font-size:65% !important;}
+	*/
+		/*WIDGET OROSCOPO*/
+	.desktop-30 .widg-oroscopo-item-for-category-txt{font-size:65% !important;}
+	.desktop-30 .widg-oroscopo-item-for-category-signdate{font-size:50% !important;}
+	.desktop-30 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-30 .cdi-caption,.desktop-30 .cdp-caption,.desktop-30 .cdv-caption,.desktop-30 .cdi-date,.desktop-30 .cdv-date,.desktop-30 .cdp-date{font-size:45% !important;}
+	.desktop-30 .cdi-title,.desktop-30 .cdp-title,.desktop-30 .cdv-title{font-size:69% !important;}
+	.desktop-30 .cdi-text,.desktop-30 .cdp-text,.desktop-30 .cdv-text{}
+	.desktop-30 .cdi-subtitle,.desktop-30 .cdp-subtitle,.desktop-30 .cdv-subtitle{font-size:56% !important;}	
+	
+/* DESKTOP-33 */
+		/*AREA - TITOLO*/
+	.desktop-33 .a-span-title{font-size:22px !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-33 .acc-caption{font-size:50% !important;}
+	.desktop-33 .acc-preview-image-container.shortHero .acc-title,.desktop-33 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:70% !important;}
+	.desktop-33 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-33 .acc-description.hero{font-size:56% !important;}
+	.desktop-33 .ccm-caption{font-size:50% !important;}
+	.desktop-33 .ccm-preview-image-container.shortHero .ccm-title,.desktop-33 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:70% !important;}
+	.desktop-33 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-33 .ccm-description.hero{font-size:56% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-33 .cs-menu-item{font-size:22px !important;}
+	.desktop-33 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-33 .wgserieacl-cnt table td img{max-height: 30px !important;height: 30px !important;}
+	.desktop-33 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:75% !important;}
+	.desktop-33 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-33 .wgserieacl-cnt table td{font-size:75% !important;}
+	.desktop-33 .wgserieacl-open-txt{font-size:75% !important;}	
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-33 .widg-oroscopo-item-for-category-txt{font-size:60% !important;}
+	.desktop-33 .widg-oroscopo-item-for-category-signdate{font-size:50% !important;}
+	.desktop-33 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-33 .cdi-caption,.desktop-33 .cdp-caption,.desktop-33 .cdv-caption,.desktop-33 .cdi-date,.desktop-33 .cdv-date,.desktop-33 .cdp-date{font-size:50% !important;}
+	.desktop-33 .cdi-title,.desktop-33 .cdp-title,.desktop-33 .cdv-title{font-size:70% !important;}
+	.desktop-33 .cdi-text,.desktop-33 .cdp-text,.desktop-33 .cdv-text{}
+	.desktop-33 .cdi-subtitle,.desktop-33 .cdp-subtitle,.desktop-33 .cdv-subtitle{font-size:58% !important;}	
+
+/* DESKTOP-40 */
+		/*AREA - TITOLO*/
+	.desktop-40 .a-span-title{font-size:23px !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-40 .acc-caption{font-size:50% !important;}
+	.desktop-40 .acc-preview-image-container.shortHero .acc-title,.desktop-40 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:75% !important;}
+	.desktop-40 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-40 .acc-description.hero{font-size:60% !important;}
+	.desktop-40 .ccm-caption{font-size:50% !important;}
+	.desktop-40 .ccm-preview-image-container.shortHero .ccm-title,.desktop-40 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:75% !important;}
+	.desktop-40 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-40 .ccm-description.hero{font-size:60% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-40 .cs-menu-item{font-size:23px !important;}
+	.desktop-40 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-40 .wgserieacl-cnt table td img{max-height: 30px !important;height: 30px !important;}
+	.desktop-40 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:75% !important;}
+	.desktop-40 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-40 .wgserieacl-cnt table td{font-size:75% !important;}
+	.desktop-40 .wgserieacl-open-txt{font-size:75% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-40 .widg-oroscopo-item-for-category-txt{font-size:60% !important;}
+	.desktop-40 .widg-oroscopo-item-for-category-signdate{font-size:50% !important;}
+	.desktop-40 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-40 .cdi-caption,.desktop-40 .cdp-caption,.desktop-40 .cdv-caption,.desktop-40 .cdi-date,.desktop-40 .cdv-date,.desktop-40 .cdp-date{font-size:50% !important;}
+	.desktop-40 .cdi-title,.desktop-40 .cdp-title,.desktop-40 .cdv-title{font-size:75% !important;}
+	.desktop-40 .cdi-text,.desktop-40 .cdp-text,.desktop-40 .cdv-text{}
+	.desktop-40 .cdi-subtitle,.desktop-40 .cdp-subtitle,.desktop-40 .cdv-subtitle{font-size:60% !important;}	
+
+/* DESKTOP-50 */
+		/*AREA - TITOLO*/
+	.desktop-50 .a-span-title{font-size:80% !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-50 .acc-caption{font-size:50% !important;}
+	.desktop-50 .acc-preview-image-container.shortHero .acc-title,.desktop-50 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:75% !important;}
+	.desktop-50 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-50 .acc-description.hero{font-size:60% !important;}
+	.desktop-50 .ccm-caption{font-size:50% !important;}
+	.desktop-50 .ccm-preview-image-container.shortHero .ccm-title,.desktop-50 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:75% !important;}
+	.desktop-50 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-50 .ccm-description.hero{font-size:60% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-50 .cs-menu-item{font-size:80% !important;}
+	.desktop-50 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-50 .wgserieacl-cnt table td img{max-height: 30px !important;height: 30px !important;}
+	.desktop-50 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:75% !important;}
+	.desktop-50 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-50 .wgserieacl-cnt table td{font-size:75% !important;}
+	.desktop-50 .wgserieacl-open-txt{font-size:75% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-50 .widg-oroscopo-item-for-category-txt{font-size:70% !important;}
+	.desktop-50 .widg-oroscopo-item-for-category-signdate{font-size:50% !important;}
+	.desktop-50 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-50 .cdi-caption,.desktop-50 .cdp-caption,.desktop-50 .cdv-caption,.desktop-50 .cdi-date,.desktop-50 .cdv-date,.desktop-50 .cdp-date{}
+	.desktop-50 .cdi-title,.desktop-50 .cdp-title,.desktop-50 .cdv-title{}
+	.desktop-50 .cdi-text,.desktop-50 .cdp-text,.desktop-50 .cdv-text{}
+	.desktop-50 .cdi-subtitle,.desktop-50 .cdp-subtitle,.desktop-50 .cdv-subtitle{}	
+
+/* DESKTOP-60 */
+		/*AREA - TITOLO*/
+	.desktop-60 .a-span-title{font-size:25px !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-60 .acc-caption{font-size:50% !important;}
+	.desktop-60 .acc-preview-image-container.shortHero .acc-title,.desktop-60 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:75% !important;}
+	.desktop-60 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-60 .acc-description.hero{font-size:60% !important;}
+	.desktop-60 .ccm-caption{font-size:50% !important;}
+	.desktop-60 .ccm-preview-image-container.shortHero .ccm-title,.desktop-60 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:75% !important;}
+	.desktop-60 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-60 .ccm-description.hero{font-size:60% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-60 .cs-menu-item{font-size:90% !important;}
+	.desktop-60 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-60 .wgserieacl-cnt table td img{max-height: 30px !important;height: 30px !important;}
+	.desktop-60 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:90% !important;}
+	.desktop-60 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-60 .wgserieacl-cnt table td{font-size:75% !important;}
+	.desktop-60 .wgserieacl-open-txt{font-size:75% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-60 .widg-oroscopo-item-for-category-txt{font-size:70% !important;}
+	.desktop-60 .widg-oroscopo-item-for-category-signdate{font-size:60% !important;}
+	.desktop-60 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-60 .cdi-caption,.desktop-60 .cdp-caption,.desktop-60 .cdv-caption,.desktop-60 .cdi-date,.desktop-60 .cdv-date,.desktop-60 .cdp-date{font-size:50% !important;}
+	.desktop-60 .cdi-title,.desktop-60 .cdp-title,.desktop-60 .cdv-title{font-size:104% !important;}
+	.desktop-60 .cdi-text,.desktop-60 .cdp-text,.desktop-60 .cdv-text{}
+	.desktop-60 .cdi-subtitle,.desktop-60 .cdp-subtitle,.desktop-60 .cdv-subtitle{font-size:85% !important;}	
+
+/* DESKTOP-66 */
+		/*AREA - TITOLO*/
+	.desktop-66 .a-span-title{font-size:90% !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-66 .acc-caption{font-size:50% !important;}
+	.desktop-66 .acc-preview-image-container.shortHero .acc-title,.desktop-66 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:75% !important;}
+	.desktop-66 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-66 .acc-description.hero{font-size:60% !important;}
+	.desktop-66 .ccm-caption{font-size:50% !important;}
+	.desktop-66 .ccm-preview-image-container.shortHero .ccm-title,.desktop-66 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:75% !important;}
+	.desktop-66 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-66 .ccm-description.hero{font-size:60% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-66 .cs-menu-item{font-size:90% !important;}
+	.desktop-66 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-66 .wgserieacl-cnt table td img{max-height: 30px !important;height: 30px !important;}
+	.desktop-66 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:90% !important;}
+	.desktop-66 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-66 .wgserieacl-cnt table td{font-size:80% !important;}
+	.desktop-66 .wgserieacl-open-txt{font-size:75% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-66 .widg-oroscopo-item-for-category-txt{font-size:70% !important;}
+	.desktop-66 .widg-oroscopo-item-for-category-signdate{font-size:60% !important;}
+	.desktop-66 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-66 .cdi-caption,.desktop-66 .cdp-caption,.desktop-66 .cdv-caption,.desktop-66 .cdi-date,.desktop-66 .cdv-date,.desktop-66 .cdp-date{font-size:50% !important;}
+	.desktop-66 .cdi-title,.desktop-66 .cdp-title,.desktop-66 .cdv-title{font-size:104% !important;}
+	.desktop-66 .cdi-text,.desktop-66 .cdp-text,.desktop-66 .cdv-text{}
+	.desktop-66 .cdi-subtitle,.desktop-66 .cdp-subtitle,.desktop-66 .cdv-subtitle{font-size:85% !important;}	
+
+/* DESKTOP-70 */
+		/*AREA - TITOLO*/
+	.desktop-70 .a-span-title{font-size:90% !important;}
+		/*HERO e SHORTHERO*/
+	.desktop-70 .acc-caption{font-size:50% !important;}
+	.desktop-70 .acc-preview-image-container.shortHero .acc-title,.desktop-70 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:75% !important;}
+	.desktop-70 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-70 .acc-description.hero{font-size:60% !important;}
+	.desktop-70 .ccm-caption{font-size:50% !important;}
+	.desktop-70 .ccm-preview-image-container.shortHero .ccm-title,.desktop-70 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:75% !important;}
+	.desktop-70 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-70 .ccm-description.hero{font-size:60% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-70 .cs-menu-item{font-size:90% !important;}
+	.desktop-70 .cs-select{font-size:50% !important;}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-70 .wgserieacl-cnt table td img{max-height: 30px !important;height: 30px !important;}
+	.desktop-70 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:90% !important;}
+	.desktop-70 .wgserieacl-cnt table th{font-size:70% !important;}
+	.desktop-70 .wgserieacl-cnt table td{font-size:80% !important;}
+	.desktop-70 .wgserieacl-open-txt{font-size:75% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-70 .widg-oroscopo-item-for-category-txt{font-size:70% !important;}
+	.desktop-70 .widg-oroscopo-item-for-category-signdate{font-size:60% !important;}
+	.desktop-70 .widg-oroscopo-title{font-size:140% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-70 .cdi-caption,.desktop-70 .cdp-caption,.desktop-70 .cdv-caption,.desktop-70 .cdi-date,.desktop-70 .cdv-date,.desktop-70 .cdp-date{font-size:50% !important;}
+	.desktop-70 .cdi-title,.desktop-70 .cdp-title,.desktop-70 .cdv-title{font-size:104% !important;}
+	.desktop-70 .cdi-text,.desktop-70 .cdp-text,.desktop-70 .cdv-text{}
+	.desktop-70 .cdi-subtitle,.desktop-70 .cdp-subtitle,.desktop-70 .cdv-subtitle{font-size:85% !important;}	
+
+/* DESKTOP-100 */
+		/*AREA - TITOLO*/
+	.desktop-100 .a-span-title{}
+		/*HERO e SHORTHERO*/
+	.desktop-100 .acc-caption{font-size:65% !important;}
+	.desktop-100 .acc-preview-image-container.shortHero .acc-title,.desktop-100 .acc-preview-image-container .acc-caption-container.hero .acc-title{font-size:85% !important;}
+	.desktop-100 .acc-preview-image-container .acc-caption-container.shortHero,.desktop-100 .acc-description.hero{font-size:75% !important;}
+	.desktop-100 .ccm-caption{font-size:65% !important;}
+	.desktop-100 .ccm-preview-image-container.shortHero .ccm-title,.desktop-100 .ccm-preview-image-container .ccm-caption-container.hero .ccm-title{font-size:85% !important;}
+	.desktop-100 .ccm-preview-image-container .ccm-caption-container.shortHero,.desktop-100 .ccm-description.hero{font-size:75% !important;}
+		/*SELEZIONE CATEGORIA*/
+	.desktop-100 .cs-menu-item{}
+	.desktop-100 .cs-select{}
+		/*WIDGET CLASSIFICA SERIEA*/
+		/*
+	.desktop-100 .wgserieacl-cnt table td img{max-height: 40px !important;height: 40px !important;}
+	.desktop-100 .wgserieacl-cnt .wgserieacl-td1-txt{font-size:100% !important;}
+	.desktop-100 .wgserieacl-cnt table th{font-size:80% !important;}
+	.desktop-100 .wgserieacl-cnt table td{font-size:90% !important;}
+	.desktop-100 .wgserieacl-open-txt{font-size:90% !important;}
+		*/
+		/*WIDGET OROSCOPO*/
+	.desktop-100 .widg-oroscopo-item-for-category-txt{font-size:80% !important;}
+	.desktop-100 .widg-oroscopo-item-for-category-signdate{font-size:65% !important;}
+	.desktop-100 .widg-oroscopo-title{font-size:165% !important;}
+		/*DETTTAGLIO CONTENUTO*/
+	.desktop-100 .cdi-caption,.desktop-100 .cdp-caption,.desktop-100 .cdv-caption,.desktop-100 .cdi-date,.desktop-100 .cdv-date,.desktop-100 .cdp-date{font-size:50% !important;}
+	.desktop-100 .cdi-title,.desktop-100 .cdp-title,.desktop-100 .cdv-title{font-size:140% !important;}
+	.desktop-100 .cdi-text,.desktop-100 .cdp-text,.desktop-100 .cdv-text{}
+	.desktop-100 .cdi-subtitle,.desktop-100 .cdp-subtitle,.desktop-100 .cdv-subtitle{font-size:105% !important;}	
+	
+
+/* SLIDER */
+		/* DEFAULT */
+	.ccs-gallery-top-contanier{width:60% !important;}
+	.ccs-gallery-thumbs-contanier{width:40% !important;}
+	.ccs-title-wrapper span{font-size: 65% !important;}
+	.ccs-thumb-tag{font-size: 50% !important;}
+	.ccs-thumb-date{font-size: 50% !important;}
+	.ccs-thumb-title{font-size: 65% !important;}
+	.ccs-gallery-top-contanier .swiper-pagination-fraction{display:none !important;}
+
+	.desktop-100 .ccs-gallery-top-contanier{width:60% !important;}
+	.desktop-100 .ccs-gallery-thumbs-contanier{width:40% !important;}
+	.desktop-100 .ccs-title-wrapper span{font-size: 65% !important;}
+	.desktop-100 .ccs-thumb-tag{font-size: 50% !important;}
+	.desktop-100 .ccs-thumb-date{font-size: 50% !important;}
+	.desktop-100 .ccs-thumb-title{font-size: 65% !important;}
+	.desktop-100 .ccs-gallery-top-contanier .swiper-pagination-fraction{display:none !important;}
+
+	.desktop-70 .ccs-gallery-top-contanier{width:60% !important;}
+	.desktop-70 .ccs-gallery-thumbs-contanier{width:40% !important;}
+	.desktop-70 .ccs-title-wrapper span{font-size: 75% !important;}
+	.desktop-70 .ccs-thumb-tag{font-size: 40% !important;}
+	.desktop-70 .ccs-thumb-date{font-size: 40% !important;}
+	.desktop-70 .ccs-thumb-title{font-size: 60% !important;}
+	.desktop-70 .ccs-gallery-top-contanier .swiper-pagination-fraction{display:none !important;}
+	
+	.desktop-66 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-66 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-66 .ccs-title-wrapper span{font-size: 70% !important;}
+	.desktop-66 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 50% !important; display:block !important;}
+
+	.desktop-60 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-60 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-60 .ccs-title-wrapper span{font-size: 70% !important;}
+	.desktop-60 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 50% !important; display:block !important;}
+
+	.desktop-50 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-50 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-50 .ccs-title-wrapper span{font-size: 60% !important;}
+	.desktop-50 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 35% !important; display:block !important;}
+
+	.desktop-40 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-40 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-40 .ccs-title-wrapper span{font-size: 65% !important;}
+	.desktop-40 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 50% !important; display:block !important;}
+
+	.desktop-33 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-33 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-33 .ccs-title-wrapper span{font-size: 55% !important;}
+	.desktop-33 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 45% !important; display:block !important;}
+
+	.desktop-30 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-30 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-30 .ccs-title-wrapper span{font-size: 55% !important;}
+	.desktop-30 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 45% !important; display:block !important;}
+
+	.desktop-25 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-25 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-25 .ccs-title-wrapper span{font-size: 45% !important;}
+	.desktop-25 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 35% !important; display:block !important;}
+
+	.desktop-20 .ccs-gallery-top-contanier{width:100% !important;}
+	.desktop-20 .ccs-gallery-thumbs-contanier{display:none !important;}
+	.desktop-20 .ccs-title-wrapper span{font-size: 45% !important;}
+	.desktop-20 .ccs-gallery-top-contanier .swiper-pagination-fraction{font-size: 35% !important; display:block !important;}
+
+}

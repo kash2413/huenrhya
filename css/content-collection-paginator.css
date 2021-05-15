@@ -1,0 +1,55 @@
+.ccp-container{
+	color:#005eb8;
+	float: left;
+	width: 100%;
+	text-align: center;
+
+width: 96%;
+background-color: #fff;
+/*border-radius: 8px;*/
+box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+display: inline-block;
+margin: 10px 2%;
+overflow: hidden;
+
+}
+ul.ccp-ul-pagination{
+	display: inline-block;
+	margin: 0;
+	padding: 1rem 0;
+	width:100%;
+}
+ul.ccp-ul-pagination li{
+	display: inline;
+	font-size:90%;
+}
+ul.ccp-ul-pagination li.firstpage{
+}
+ul.ccp-ul-pagination li a.firstpage span,
+ul.ccp-ul-pagination li.prev a span,
+ul.ccp-ul-pagination li.activepage span,
+ul.ccp-ul-pagination li.next a span{
+	margin:0 2%;
+}
+ul.ccp-ul-pagination li.prev{
+}
+ul.ccp-ul-pagination li.activepage{
+	/*
+	font-weight:bold;
+	color:#000;
+	*/
+}
+ul.ccp-ul-pagination li.next{
+}
+ul.ccp-ul-pagination li.lastpage{
+}
+
+ul.ccp-ul-pagination li a{
+	color:inherit;
+  text-decoration: none;
+}
+ul.ccp-ul-pagination li a img{
+	max-width: 40px;
+	height: auto;
+	vertical-align: middle;
+}
